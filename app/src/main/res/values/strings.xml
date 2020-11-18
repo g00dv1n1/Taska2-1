@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task2-1</string>
+    <string name="head">Подписка</string>
+    <string name="login">Имя пользователя</string>
+    <string name="email">Электронная почта</string>
+    <string name="ok">Подписаться</string>
+    <string name="clean">Очистить</string>
+</resources>
