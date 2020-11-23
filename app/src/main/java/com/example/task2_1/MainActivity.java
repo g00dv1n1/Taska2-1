@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String lg = login.getText().toString();
                 String em = email.getText().toString();
-                String resultText = "Подписка на рассылку успешно оформлена для пользователя " + lg + " на электронный адрес " + em;
+                String resultText = getText(R.string.text1) + " " + lg + " " +
+                        getText(R.string.text2) + " " + em;
                 result.setText(resultText);
             }
         });
