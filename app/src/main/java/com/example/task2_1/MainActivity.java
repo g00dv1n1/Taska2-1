@@ -25,8 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String lg = login.getText().toString();
                 String em = email.getText().toString();
-                String resultText = getText(R.string.text1) + " " + lg + " " +
-                        getText(R.string.text2) + " " + em;
+                String resultText = getString(R.string.message, lg, em);
                 result.setText(resultText);
             }
         });
